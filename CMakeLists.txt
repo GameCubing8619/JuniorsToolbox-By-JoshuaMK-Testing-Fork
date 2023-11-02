@@ -39,6 +39,8 @@ file(GLOB TOOLBOX_SRC
     "src/io/*.cpp"
     "src/gui/*.cpp"
     "include/gui/*.hpp"
+    "src/gui/project/*.cpp"
+    "include/gui/project/*.hpp"
     "src/gui/scene/*.cpp"
     "include/gui/scene/*.hpp"
     "src/gui/property/*.cpp"

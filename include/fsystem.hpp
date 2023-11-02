@@ -8,7 +8,7 @@
 #include <system_error>
 #include <format>
 
-namespace Toolbox {
+namespace Toolbox::FS {
 
     [[nodiscard]] static inline std::expected<std::filesystem::path, std::error_code>
     absolute(const std::filesystem::path &p) {
